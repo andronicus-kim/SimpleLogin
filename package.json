@@ -1,0 +1,33 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "simple login app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andronicus-kim/SimpleLogin.git"
+  },
+  "keywords": [
+    "Login",
+    "Andronicus",
+    "Docker",
+    "Node",
+    "Express",
+    "Mongo",
+    "React",
+    "Redux",
+    "Kubernetes"
+  ],
+  "author": "Andronicus Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andronicus-kim/SimpleLogin/issues"
+  },
+  "homepage": "https://github.com/andronicus-kim/SimpleLogin#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
