@@ -5,6 +5,7 @@ const dbName = "loginapp"
 let collections = {}
 
 dbCLient.connect(url,(err,client) => {
+    if(err) throw err
     console.log("connection was successful")
     const db = client.db(dbName)
 
